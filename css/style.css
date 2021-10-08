@@ -3,6 +3,11 @@
 
 }
 
+.clipped2 {
+    clip-path: polygon(0 0, 88% 18%, 100% 53%, 29% 100%);
+
+}
+
 .h-color{
     color: #202844;
 }
@@ -20,3 +25,9 @@
 .anime:hover{
     color: #D12A2E;
 }
+
+.bgcolor{
+    background-color: #F0F1F3;
+
+}
+
