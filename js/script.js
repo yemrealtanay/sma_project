@@ -1,3 +1,20 @@
+//navbar düzenleme:
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if (this.scrollY > 800) {
+            $('.navbar').addClass("sticky");
+        }else{
+            $('.navbar').removeClass("sticky");
+        }
+    });
+});
+
+
+
+
+//typed animasyonu:
+
 var typed = new Typed(".typing", {
 
     strings: ["Full Stack Developer", "Youtuber", "Writer", "3D Designer", "Game Designer", "Php Laravel Developer"],

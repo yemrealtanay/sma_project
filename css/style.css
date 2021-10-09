@@ -31,3 +31,18 @@
 
 }
 
+.navbar.sticky{
+    color: white !important;
+    background-color: #F93154;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    -moz-transition: 0.8s;
+}
+
+.navbar{
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -o-transition: 0.8s;
+    -moz-transition: 0.8s;
+}

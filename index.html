@@ -14,6 +14,7 @@
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css"/>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 <body>
@@ -25,12 +26,6 @@
             height: 100vh;
         }
 
-        /* Height for devices larger than 576px */
-        @media (min-width: 992px) {
-            #intro {
-                margin-top: -58.59px;
-            }
-        }
 
         .navbar .nav-link {
             color: #fff !important;
@@ -38,7 +33,7 @@
     </style>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="z-index: 2000;">
         <div class="container-fluid">
             <!-- Navbar brand -->
             <a class="navbar-brand nav-link" target="_blank" href="#">
@@ -51,22 +46,22 @@
             <div class="collapse navbar-collapse" id="navbarExample01">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item active">
-                        <button type="button" class="btn btn-sm ms-2 mt-1  anime" data-mdb-ripple-color="dark">
+                        <button type="button" class="btn btn-sm ms-2 mt-1 shadow-0 anime" data-mdb-ripple-color="dark">
                             Ana Sayfa
                         </button>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-sm ms-2 mt-1  anime" data-mdb-ripple-color="dark">
+                        <button type="button" class="btn btn-sm ms-2 mt-1 shadow-0 anime" data-mdb-ripple-color="dark">
                             Ben Kimim?
                         </button>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-sm ms-3 mt-1  anime" data-mdb-ripple-color="dark">
+                        <button type="button" class="btn btn-sm ms-2 mt-1 shadow-0 anime" data-mdb-ripple-color="dark">
                             Neler Yapıyorum?
                         </button>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-sm ms-2 mt-1  anime" data-mdb-ripple-color="dark">
+                        <button type="button" class="btn btn-sm ms-2 mt-1 shadow-0 anime" data-mdb-ripple-color="dark">
                             Bana Ulaşın
                         </button>
                     </li>
