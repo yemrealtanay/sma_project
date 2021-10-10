@@ -14,17 +14,19 @@
 
 .anime{
     color: white;
-    -webkit-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -ms-transition:all 1s ease;
-    transition:all 1s ease;
+    -webkit-transition:all 500ms ease;
+    -moz-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    -ms-transition:all 500ms ease;
+    transition:all 500ms ease;
 }
 
 
 .anime:hover{
     color: #D12A2E;
 }
+
+
 
 .bgcolor{
     background-color: #F0F1F3;
