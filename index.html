@@ -36,7 +36,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="z-index: 2000;">
         <div class="container-fluid">
             <!-- Navbar brand -->
-            <a class="navbar-brand nav-link" target="_blank" href="#">
+            <a class="navbar-brand nav-link" href="#">
                 <strong>yemrealtanay.xyz</strong>
             </a>
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
@@ -58,6 +58,11 @@
                     <li class="nav-item">
                         <a type="button" class="btn btn-sm ms-2 mt-1 shadow-0 anime" data-mdb-ripple-color="dark" href="#whatido">
                             Neler Yapıyorum?
+                        </a>
+                    </li>
+                    <li>
+                        <a type="button" class="btn btn-sm ms-2 mt-1 shadow-0 anime" data-mdb-ripple-color="dark" href="#jobs">
+                            İşlerim
                         </a>
                     </li>
                     <li>
@@ -228,7 +233,7 @@
 
         <!--Section: whatiknow-->
 
-        <section class="mb-5">
+        <section class="mb-5 pb-5">
             <h4 class="mb-5 text-center h-color"><strong>{ Yeteneklerim }</strong></h4>
 
             <div class="row shadow-2 border-2">
@@ -308,6 +313,75 @@
         </section>
 
         <!--Section: whatiknow-->
+
+        <hr class="my-5"/>
+
+        <!--Section: Kartlar-->
+
+        <section id="jobs" class="text-center pt-5">
+            <h4 class="mb-5"><strong>{ İşlerim }</strong></h4>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/logo.png" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Twits!</h5>
+                            <p class="card-text">
+                                <strong class="text-danger">Furkan Meraloğlu</strong>  ile birlikte yaptığımız kurum içi sosyal medya projesi basit bir twitter klonu olarak başladı. Ancak şimdi başka bir marka
+                                haline geliyor ve yakında yayına çıkıyor.
+                            </p>
+                            <a href="https://github.com/furkanmeraloglu/Twits" target="_blank" class="btn btn-primary">Github'ta Gör</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/crepe.png" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Crepe & Fondue</h5>
+                            <p class="card-text">
+                                Crepe and Fondue restoranın kurumsal web sitesi tasarımı. Dinamik özellikleri, rezervasyon sistemi şık tasarımıyla,
+                                restoranın kimliğini yansıtan çok şık bir web sitesi.
+                            </p>
+                            <a href="https://crepeandfondue.com/" target="_blank" class="btn btn-primary">Siteyi Ziyaret Et</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/mdd.png" class="img-fluid" />
+                            <a href="#!">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mutfak Dostları Derneği</h5>
+                            <p class="card-text">
+                                10 yıldır Mutfak Dostları Derneği'nin web sitesini geliştiriyor, içeriklerini yönetiyorum. Bu lezzet aşığı derneğin her tür
+                                bilişim ihtiyaçlarını karşılıyor, hosting yönetimini, sosyal medyalarının yürütülmesini üstlenmiş bulunuyorum.
+                            </p>
+                            <a href="http://www.mutfakdostlari.org.tr/" target="_blank" class="btn btn-primary">Ziyaret Et</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section: Kartlar-->
 
         <hr class="my-5"/>
         <!--Section: Galery-->
@@ -393,9 +467,14 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div
+                    loading="lazy"
+                    data-mc-src="db0f1697-341a-448a-b81f-54df31a19e39#instagram"></div>
 
         </section>
         <!--Section: Galery-->
+
+
 
         <hr class="my-5"/>
 
@@ -471,8 +550,7 @@
 
                     <!-- Copyright -->
                     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                        © 2021 Copyright:
-                        <a class="text-dark" href="https://mdbootstrap.com/">Yunus Emre Altanay</a>
+                        © 2021 Copyright: <strong>Yunus Emre Altanay</strong>
                     </div>
                     <!-- Copyright -->
                     </footer>
@@ -481,5 +559,7 @@
                     <script type="text/javascript" src="js/mdb.min.js"></script>
                     <!-- Custom scripts -->
                     <script type="text/javascript" src="js/script.js"></script>
+                    <!--Instagram Widget-->
+                    <script src="https://cdn2.woxo.tech/a.js#6162b368eb3546001668b187" async data-usrc></script>
 </body>
 </html>
