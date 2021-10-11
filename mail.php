@@ -21,8 +21,8 @@ $mail->SMTPAuth   = TRUE;
 $mail->SMTPSecure = "tls";
 $mail->Port       = 587;
 $mail->Host       = "smtp.gmail.com";
-$mail->Username   = "yemrealtanayxyz@gmail.com";
-$mail->Password   = "3102005yemrealtanay";
+$mail->Username   = "gmail@username";
+$mail->Password   = "secret";
 
 $mail->IsHTML(true);
 $mail->AddAddress("y.emrealtanay@gmail.com", "web");
